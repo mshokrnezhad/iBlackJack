@@ -6,6 +6,8 @@ Instructing an agent in the strategies of playing Blackjack using Monte Carlo co
 
 This serves as a straightforward example demonstrating how Monte Carlo methods can be practically applied in gaming scenarios. Essentially, the approach involves repeatedly playing BlackJack to obtain accurate estimates for the expected value of each possible state. Actions are then selected based on these calculated values.
 
+To simulate the game, I use Gym's BlackJack. Check here for more details: https://www.gymlibrary.dev/environments/toy_text/blackjack/
+
 ### Strategy Overview
 
 The final code implementation utilizes the epsilon-soft action selection strategy. Here's a breakdown:
